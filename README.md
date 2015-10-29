@@ -1,4 +1,4 @@
-You need first to copy the folder "bsplines" that contain all the source files, into your local /usr/include/. 
+No built is required. You need to copy the folder "bsplines" that contain all the source files, into your local /usr/include/ or copy and use them in your local folder.  
 
 
 Compile with 

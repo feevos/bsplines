@@ -42,11 +42,11 @@ int main(){
 
 		// Output derivatives. 
 		for (auto j=0; j < k; ++j)
-			cout << myf.Djf_eval(j,x)<< " "; // Zeroth order derivative = bspline basis. 
+			cout << myf.Djf_eval(j,x)<< " "; // Zeroth order derivative = function. 
 
 		// Output integrals (by default 1 up to 3rd order): 
 		for (auto j=1; j <= 3; ++j)
-			cout << myf.Intf_eval(j,x)<< " "; // Zeroth order derivative = bspline basis. 
+			cout << myf.Intf_eval(j,x)<< " ";  
 		cout << endl; 
 
 		}

@@ -1,4 +1,4 @@
-##Bsplines class
+##Bsplines C++ class
 A very simple implementation of b-spline basis and b-spline functions for c++. This library was created with the mindeset to be used in scientific applications.  
 
 

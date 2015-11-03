@@ -22,8 +22,8 @@ int main(){
 	for (double x=breakpts.front(); x <= breakpts.back(); x+=0.01)
 		{ 
 		cout << x << " "; 
-		for (auto j=0; j < mybasis.get_nbasis(); ++j)
-			cout << mybasis.get_DjBix(0,j,x)<< " "; // Zeroth order derivative = bspline basis. 
+		for (auto i=0; i < mybasis.get_nbasis(); ++i)
+			cout << mybasis.get_DjBix(0,i,x)<< " "; // Zeroth order derivative = bspline basis. 
 		cout << endl; 
 
 
